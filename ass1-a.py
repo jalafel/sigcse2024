@@ -9,14 +9,13 @@ def get_player_name():
 def get_player_choice():
     # TODO: Ask the player for their choice (e.g., "left" or "right") and return it
 
-def print_message(name, choice):
+# def print_message(name, choice):
     # TODO: Print a message that includes the player's name and chosen path
 
 def main():
     # TODO: Use the above functions to get the player's name and choice, and print the message
+    name = get_player_name()
     
 # Call the main function to start the game
 if __name__ == "__main__":
-    name = get_player_name()
-    print_message(name, choice)
     main()

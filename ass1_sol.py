@@ -23,8 +23,6 @@ def print_message(name, choice):
 def main():
     # Use the above functions to get the player's name and choice, and print the message
     name = get_player_name()
-    choice = get_player_choice()
-    print_message(name, choice)
 
     # Annotate this code chunk
     while True:
@@ -34,6 +32,8 @@ def main():
       play_again = input("Do you want to play again? (yes/no): ")
       if play_again.lower() != "yes":
           break
+
+    print("Thanks for playing!")
 
 # Call the main function to start the game
 if __name__ == "__main__":
